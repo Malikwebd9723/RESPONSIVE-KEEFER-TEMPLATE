@@ -398,8 +398,18 @@ h2 {
   .sec2Aside2,
   .sec2Aside3 {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-
+  .section4{
+    flex-direction: column;
+  }
+.footerRight, .footerLeft{
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
   .sec3Aside1 {
     padding: 0 10%;
   }
